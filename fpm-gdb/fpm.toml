@@ -1,0 +1,23 @@
+name = "fpm-gdb"
+version = "0.1.0"
+license = "MIT"
+maintainer = "urbanjost@comcast.net"
+author = "John S. Urban"
+copyright = "Copyright 2025 John S. Urban"
+#description = "A short project summary in plain text"
+#categories = ["fortran", "graphics"]
+#keywords = ["hdf5", "mpi"]
+#homepage = "https://stdlib.fortran-lang.org"
+[install]
+    library = false
+[build] 
+    auto-executables = true
+[library]
+    source-dir="src"
+[dependencies]
+    M_CLI2 = { git = "https://github.com/urbanjost/M_CLI2.git" }
+    M_process = { git = "https://github.com/urbanjost/M_process.git" }
+    #M_process = { path = "M_process" }
+[[executable]]
+    name="fpm-gdb"
+    main="fpm-gdb.f90"
