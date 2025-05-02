@@ -162,9 +162,9 @@ For the vim(1) terminal help go to the rightmost vim(1) window and enter
      fpm gdb --example demo1
 
 ## **SEE ALSO**
-    gdb(1), fpm(1), vim(1)
+   gdb(1), fpm(1), vim(1)
 
-    + fpm run --runner ddd
-    + fpm run --runner gdbgui
-    + fpm run --runner gdbtui
-    + fpm run --runner gdb
+   + fpm run --runner ddd
+   + fpm run --runner gdbgui
+   + fpm run --runner gdbtui
+   + fpm run --runner gdb
