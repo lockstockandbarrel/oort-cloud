@@ -34,27 +34,34 @@ to launch the debugger in vim(1) mode on the project app.
    If the result is "1" you have it.
 
 ## **OPTIONS**
-   +**PROGRAM**     
+
+ + **PROGRAM**     
    : if more than one application is built by the package
    the name must be specified. Unlike with the "fpm run"
    command wildcards are not permitted.
-   +**--gdb CMDS**  
+
+ + **--gdb CMDS**  
    : pass initial commands to gdb(1)
-   +**-wide,-w**    
+
+ + **-wide,-w**    
    : assume a wide screen width. Wide mode places the
    code in a window on the left of the screen. <C-W>
    followed by one of {RHKLJ} can change the window
    layout.
-   +**--test**      
+
+ + **--test**      
    : use subcommand "test" instead of the default "run"
    in order to select test programs. If --test is specified
    --example is ignored.
-   +**--verbose,-V**  
+
+ + **--verbose,-V**  
    : verbose mode
-   +**--version,-v**  
+
+ + **--version,-v**  
    : Print version information on standard output then
    exit successfully.
-   +**--help,-h**     
+
+ + **--help,-h**     
    : Print usage information on standard output then
    exit successfully.
 
